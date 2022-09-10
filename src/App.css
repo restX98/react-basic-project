@@ -1,19 +1,59 @@
-.app .logo {
-  width: 150px;
-}
-
 nav {
+  background-color: #21222A;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  padding: 30px 25px;
 }
 
-nav .nav-menu {
-  list-style-type: none;
+nav .logo-container {
   display: flex;
+  align-items: center;
+  color: #61DAFB;
+  font-size: 1.375rem;
+  font-weight: 700;
 }
 
-nav .nav-menu > li {
+nav .logo-container .logo {
+  width: 1.875rem;
+}
+
+nav .title {
+  color: #DEEBF8;
+  font-weight: 700;
+}
+
+main {
+  color: #FFF;
+  padding: 57px 27px;
+  background-image: url("./images/logo-grey.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 100%;
+}
+
+main .content-title {
+  font-size: 2.438rem;
+  letter-spacing: -0.05em;
+}
+
+main .list-facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+main .list-facts > li {
+  line-height: 1.188rem;
+  padding-block: 10px;
+}
+
+main .list-facts > li::marker {
+  color:#61DAFB;
+  font-size: 1.4rem;
+}
+
+footer {
+  background-color: black;
+  color: #33373E;
   padding: 10px;
 }
