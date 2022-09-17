@@ -1,6 +1,8 @@
-function MainContent() {
+import "./MainContent.css";
+
+function MainContent(props) {
   return (
-    <main>
+    <main className={props.darkMode ? "dark" : ""}>
       <h1 className="content-title">Fun facts about React</h1>
       <ul className="list-facts">
         <li>Was first released in 2013</li>

@@ -1,59 +1,21 @@
-nav {
-  background-color: #21222A;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 25px;
-}
-
-nav .logo-container {
-  display: flex;
-  align-items: center;
-  color: #61DAFB;
-  font-size: 1.375rem;
-  font-weight: 700;
-}
-
-nav .logo-container .logo {
-  width: 1.875rem;
-}
-
-nav .title {
-  color: #DEEBF8;
-  font-weight: 700;
-}
-
-main {
-  color: #FFF;
-  padding: 57px 27px;
-  background-image: url("./images/logo-grey.svg");
+.App {
+  height: 100vh;
+  background-color: #FFFF;
+  background-image: url("./images/logo-ligth.svg");
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: 100%;
+  background-position: right center;
+  background-attachment: fixed;
 }
-
-main .content-title {
-  font-size: 2.438rem;
-  letter-spacing: -0.05em;
-}
-
-main .list-facts {
-  margin-top: 46px;
-  max-width: 400px;
-}
-
-main .list-facts > li {
-  line-height: 1.188rem;
-  padding-block: 10px;
-}
-
-main .list-facts > li::marker {
-  color:#61DAFB;
-  font-size: 1.4rem;
+.App.dark {
+  background-color: #282D35;
+  background-image: url("./images/logo-grey.svg");
 }
 
 footer {
   background-color: black;
   color: #33373E;
   padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

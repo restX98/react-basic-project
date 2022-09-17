@@ -1,0 +1,93 @@
+nav {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.App.dark nav {
+  background-color: #21222A;
+}
+
+nav .logo-container {
+  display: flex;
+  align-items: center;
+  color: #61DAFB;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+nav .logo-container .logo {
+  width: 1.875rem;
+}
+
+nav .title {
+  color: #2B283A;
+  font-weight: 700;
+}
+
+.App.dark nav .title {
+  color: #DEEBF8;
+}
+
+nav .toggler {
+  display: flex;
+  align-items: center;
+}
+
+nav .toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+nav .toggler .slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2B283A;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.App.dark nav .toggler .slider {
+  border-color: white;
+  background-color: #F5F5F5;
+}
+
+nav .toggler .slider .circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.App.dark nav .toggler .slider .circle {
+  background-color: black;
+}
+
+nav .toggler .light {
+  color: #2B283A;
+}
+
+.App.dark nav .toggler .light {
+  color: #918E9B;
+}
+
+nav .toggler .dark {
+  color: #D5D4D8;
+}
+
+.App.dark nav .toggler .dark {
+  color: #FFFFFF;
+}
+
+.App.dark nav .toggler .slider {
+  justify-content: flex-end;
+}
